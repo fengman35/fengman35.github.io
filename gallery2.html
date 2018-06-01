@@ -1,0 +1,15 @@
+
+<html>
+<head>
+<title>Link</title>
+</head>
+<body>
+<p><a href="javascript:popUp('http://www.baidu.com');">example</a> </p>
+<p><a href="#" onclick="popUp('http://fanyi.baidu.com/');return false;">example1</a></p>
+<p><a href="http://www.baidu.com/" onclick="popUp(this.getAttribute('href')); return false;">example2</a></p>
+<p><a href="https://yun.baidu.com/" onclick="popUp(this.href); return false;">example3</a></p>
+<p><a href="http://www.baidu.com/" class="popup">example4</a>    
+</p>
+<script src="scripts/open.js"></script>
+</body>
+</html>
